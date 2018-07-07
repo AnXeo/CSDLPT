@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="QLVATTUDataSet3" targetNamespace="http://tempuri.org/QLVATTUDataSet3.xsd" xmlns:mstns="http://tempuri.org/QLVATTUDataSet3.xsd" xmlns="http://tempuri.org/QLVATTUDataSet3.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="QLVATTUConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="QLVATTUConnectionString1 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.QLVATTU.Properties.Settings.GlobalReference.Default.QLVATTUConnectionString1" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="V_DS_PHANMANHTableAdapter" GeneratorDataComponentClassName="V_DS_PHANMANHTableAdapter" Name="V_DS_PHANMANH" UserDataComponentName="V_DS_PHANMANHTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="QLVATTUConnectionString1 (Settings)" DbObjectName="QLVATTU.dbo.V_DS_PHANMANH" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT TENCN, TENSERVER FROM dbo.V_DS_PHANMANH</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="TENCN" DataSetColumn="TENCN" />
+              <Mapping SourceColumn="TENSERVER" DataSetColumn="TENSERVER" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="V_KHOTableAdapter" GeneratorDataComponentClassName="V_KHOTableAdapter" Name="V_KHO" UserDataComponentName="V_KHOTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="QLVATTUConnectionString1 (Settings)" DbObjectName="QLVATTU.dbo.V_KHO" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT MAKHO, TENKHO FROM dbo.V_KHO</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="MAKHO" DataSetColumn="MAKHO" />
+              <Mapping SourceColumn="TENKHO" DataSetColumn="TENKHO" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="V_MaDDHTableAdapter" GeneratorDataComponentClassName="V_MaDDHTableAdapter" Name="V_MaDDH" UserDataComponentName="V_MaDDHTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="QLVATTUConnectionString1 (Settings)" DbObjectName="QLVATTU.dbo.V_MaDDH" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT MasoDDH FROM dbo.V_MaDDH</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="MasoDDH" DataSetColumn="MasoDDH" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="V_MANVTableAdapter" GeneratorDataComponentClassName="V_MANVTableAdapter" Name="V_MANV" UserDataComponentName="V_MANVTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="QLVATTUConnectionString1 (Settings)" DbObjectName="QLVATTU.dbo.V_MANV" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT MANV FROM dbo.V_MANV</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="MANV" DataSetColumn="MANV" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="V_MAPNTableAdapter" GeneratorDataComponentClassName="V_MAPNTableAdapter" Name="V_MAPN" UserDataComponentName="V_MAPNTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="QLVATTUConnectionString1 (Settings)" DbObjectName="QLVATTU.dbo.V_MAPN" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT MAPN FROM dbo.V_MAPN</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="MAPN" DataSetColumn="MAPN" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="V_MAVTTableAdapter" GeneratorDataComponentClassName="V_MAVTTableAdapter" Name="V_MAVT" UserDataComponentName="V_MAVTTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="QLVATTUConnectionString1 (Settings)" DbObjectName="QLVATTU.dbo.V_MAVT" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT MAVT FROM dbo.V_MAVT</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="MAVT" DataSetColumn="MAVT" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="QLVATTUDataSet3" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="QLVATTUDataSet3" msprop:Generator_UserDSName="QLVATTUDataSet3">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="V_DS_PHANMANH" msprop:Generator_TableClassName="V_DS_PHANMANHDataTable" msprop:Generator_TableVarName="tableV_DS_PHANMANH" msprop:Generator_TablePropName="V_DS_PHANMANH" msprop:Generator_RowDeletingName="V_DS_PHANMANHRowDeleting" msprop:Generator_RowChangingName="V_DS_PHANMANHRowChanging" msprop:Generator_RowEvHandlerName="V_DS_PHANMANHRowChangeEventHandler" msprop:Generator_RowDeletedName="V_DS_PHANMANHRowDeleted" msprop:Generator_UserTableName="V_DS_PHANMANH" msprop:Generator_RowChangedName="V_DS_PHANMANHRowChanged" msprop:Generator_RowEvArgName="V_DS_PHANMANHRowChangeEvent" msprop:Generator_RowClassName="V_DS_PHANMANHRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TENCN" msprop:Generator_ColumnVarNameInTable="columnTENCN" msprop:Generator_ColumnPropNameInRow="TENCN" msprop:Generator_ColumnPropNameInTable="TENCNColumn" msprop:Generator_UserColumnName="TENCN" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TENSERVER" msprop:Generator_ColumnVarNameInTable="columnTENSERVER" msprop:Generator_ColumnPropNameInRow="TENSERVER" msprop:Generator_ColumnPropNameInTable="TENSERVERColumn" msprop:Generator_UserColumnName="TENSERVER" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="128" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="V_KHO" msprop:Generator_TableClassName="V_KHODataTable" msprop:Generator_TableVarName="tableV_KHO" msprop:Generator_TablePropName="V_KHO" msprop:Generator_RowDeletingName="V_KHORowDeleting" msprop:Generator_RowChangingName="V_KHORowChanging" msprop:Generator_RowEvHandlerName="V_KHORowChangeEventHandler" msprop:Generator_RowDeletedName="V_KHORowDeleted" msprop:Generator_UserTableName="V_KHO" msprop:Generator_RowChangedName="V_KHORowChanged" msprop:Generator_RowEvArgName="V_KHORowChangeEvent" msprop:Generator_RowClassName="V_KHORow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MAKHO" msprop:Generator_ColumnVarNameInTable="columnMAKHO" msprop:Generator_ColumnPropNameInRow="MAKHO" msprop:Generator_ColumnPropNameInTable="MAKHOColumn" msprop:Generator_UserColumnName="MAKHO">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TENKHO" msprop:Generator_ColumnVarNameInTable="columnTENKHO" msprop:Generator_ColumnPropNameInRow="TENKHO" msprop:Generator_ColumnPropNameInTable="TENKHOColumn" msprop:Generator_UserColumnName="TENKHO">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="V_MaDDH" msprop:Generator_TableClassName="V_MaDDHDataTable" msprop:Generator_TableVarName="tableV_MaDDH" msprop:Generator_TablePropName="V_MaDDH" msprop:Generator_RowDeletingName="V_MaDDHRowDeleting" msprop:Generator_RowChangingName="V_MaDDHRowChanging" msprop:Generator_RowEvHandlerName="V_MaDDHRowChangeEventHandler" msprop:Generator_RowDeletedName="V_MaDDHRowDeleted" msprop:Generator_UserTableName="V_MaDDH" msprop:Generator_RowChangedName="V_MaDDHRowChanged" msprop:Generator_RowEvArgName="V_MaDDHRowChangeEvent" msprop:Generator_RowClassName="V_MaDDHRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MasoDDH" msprop:Generator_ColumnVarNameInTable="columnMasoDDH" msprop:Generator_ColumnPropNameInRow="MasoDDH" msprop:Generator_ColumnPropNameInTable="MasoDDHColumn" msprop:Generator_UserColumnName="MasoDDH">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="V_MANV" msprop:Generator_TableClassName="V_MANVDataTable" msprop:Generator_TableVarName="tableV_MANV" msprop:Generator_TablePropName="V_MANV" msprop:Generator_RowDeletingName="V_MANVRowDeleting" msprop:Generator_RowChangingName="V_MANVRowChanging" msprop:Generator_RowEvHandlerName="V_MANVRowChangeEventHandler" msprop:Generator_RowDeletedName="V_MANVRowDeleted" msprop:Generator_UserTableName="V_MANV" msprop:Generator_RowChangedName="V_MANVRowChanged" msprop:Generator_RowEvArgName="V_MANVRowChangeEvent" msprop:Generator_RowClassName="V_MANVRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MANV" msprop:Generator_ColumnVarNameInTable="columnMANV" msprop:Generator_ColumnPropNameInRow="MANV" msprop:Generator_ColumnPropNameInTable="MANVColumn" msprop:Generator_UserColumnName="MANV" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="V_MAPN" msprop:Generator_TableClassName="V_MAPNDataTable" msprop:Generator_TableVarName="tableV_MAPN" msprop:Generator_TablePropName="V_MAPN" msprop:Generator_RowDeletingName="V_MAPNRowDeleting" msprop:Generator_RowChangingName="V_MAPNRowChanging" msprop:Generator_RowEvHandlerName="V_MAPNRowChangeEventHandler" msprop:Generator_RowDeletedName="V_MAPNRowDeleted" msprop:Generator_UserTableName="V_MAPN" msprop:Generator_RowChangedName="V_MAPNRowChanged" msprop:Generator_RowEvArgName="V_MAPNRowChangeEvent" msprop:Generator_RowClassName="V_MAPNRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MAPN" msprop:Generator_ColumnVarNameInTable="columnMAPN" msprop:Generator_ColumnPropNameInRow="MAPN" msprop:Generator_ColumnPropNameInTable="MAPNColumn" msprop:Generator_UserColumnName="MAPN">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="V_MAVT" msprop:Generator_TableClassName="V_MAVTDataTable" msprop:Generator_TableVarName="tableV_MAVT" msprop:Generator_TablePropName="V_MAVT" msprop:Generator_RowDeletingName="V_MAVTRowDeleting" msprop:Generator_RowChangingName="V_MAVTRowChanging" msprop:Generator_RowEvHandlerName="V_MAVTRowChangeEventHandler" msprop:Generator_RowDeletedName="V_MAVTRowDeleted" msprop:Generator_UserTableName="V_MAVT" msprop:Generator_RowChangedName="V_MAVTRowChanged" msprop:Generator_RowEvArgName="V_MAVTRowChangeEvent" msprop:Generator_RowClassName="V_MAVTRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MAVT" msprop:Generator_ColumnVarNameInTable="columnMAVT" msprop:Generator_ColumnPropNameInRow="MAVT" msprop:Generator_ColumnPropNameInTable="MAVTColumn" msprop:Generator_UserColumnName="MAVT">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:V_KHO" />
+      <xs:field xpath="mstns:MAKHO" />
+    </xs:unique>
+    <xs:unique name="V_MaDDH_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:V_MaDDH" />
+      <xs:field xpath="mstns:MasoDDH" />
+    </xs:unique>
+    <xs:unique name="V_MANV_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:V_MANV" />
+      <xs:field xpath="mstns:MANV" />
+    </xs:unique>
+    <xs:unique name="V_MAPN_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:V_MAPN" />
+      <xs:field xpath="mstns:MAPN" />
+    </xs:unique>
+    <xs:unique name="V_MAVT_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:V_MAVT" />
+      <xs:field xpath="mstns:MAVT" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

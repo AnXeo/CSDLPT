@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="QLVATTUDataSet1" targetNamespace="http://tempuri.org/QLVATTUDataSet1.xsd" xmlns:mstns="http://tempuri.org/QLVATTUDataSet1.xsd" xmlns="http://tempuri.org/QLVATTUDataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="QLVATTUConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="QLVATTUConnectionString1 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.QLVATTU.Properties.Settings.GlobalReference.Default.QLVATTUConnectionString1" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="V_MaDDHTableAdapter" GeneratorDataComponentClassName="V_MaDDHTableAdapter" Name="V_MaDDH" UserDataComponentName="V_MaDDHTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="QLVATTUConnectionString1 (Settings)" DbObjectName="QLVATTU.dbo.V_MaDDH" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT MasoDDH FROM dbo.V_MaDDH</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="MasoDDH" DataSetColumn="MasoDDH" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="QLVATTUDataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="QLVATTUDataSet1" msprop:Generator_UserDSName="QLVATTUDataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="V_MaDDH" msprop:Generator_TableClassName="V_MaDDHDataTable" msprop:Generator_TableVarName="tableV_MaDDH" msprop:Generator_TablePropName="V_MaDDH" msprop:Generator_RowDeletingName="V_MaDDHRowDeleting" msprop:Generator_RowChangingName="V_MaDDHRowChanging" msprop:Generator_RowEvHandlerName="V_MaDDHRowChangeEventHandler" msprop:Generator_RowDeletedName="V_MaDDHRowDeleted" msprop:Generator_UserTableName="V_MaDDH" msprop:Generator_RowChangedName="V_MaDDHRowChanged" msprop:Generator_RowEvArgName="V_MaDDHRowChangeEvent" msprop:Generator_RowClassName="V_MaDDHRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MasoDDH" msprop:Generator_ColumnVarNameInTable="columnMasoDDH" msprop:Generator_ColumnPropNameInRow="MasoDDH" msprop:Generator_ColumnPropNameInTable="MasoDDHColumn" msprop:Generator_UserColumnName="MasoDDH">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:V_MaDDH" />
+      <xs:field xpath="mstns:MasoDDH" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
